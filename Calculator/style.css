@@ -1,0 +1,72 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css');
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    padding: 0;
+}
+
+:root{
+    --white-lighter-1:rgba(255, 255, 255, 0.05);
+    --white-lighter-2:rgba(255, 255, 255, 0.05);
+    --bg-primary:black;
+    --black-lighter:rgba(0,0,0,0.2);
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #091921;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.main{
+    right:150px;
+    width: 25rem;
+    height:29rem;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius:20px ;
+    background-color: rgb(230, 210, 210);
+    backdrop-filter: blur(15px);
+    border-top: 1px solid var(--white-lighter-1);
+    border-left: 1px solid var(--white-lighter-2);
+    box-shadow: 5px 5px 30px var(--bg-primary);
+}
+
+.calc{
+    position: absolute;
+    width: 20rem;
+    bottom: 1.5rem;
+    height: 21rem;
+    display: grid;
+    grid-template-columns: auto auto auto  auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    border-radius: 15px;
+    border-color: #091921;
+    
+}
+
+.btn{
+    font-size: 2rem;
+    padding: 5px;
+    color:#091921;
+    box-shadow: 2px;
+    margin-top: 2px;
+    border: solid black 0.5px;
+    background-color: #dfa4a4;
+    
+
+}
+.form{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 24px;
+    border-style: double;
+}
+
